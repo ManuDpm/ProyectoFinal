@@ -1,0 +1,51 @@
+body { 
+    font-family: "Mulish"; 
+    font-size: 16px; 
+    background-color: rgba(255, 0, 0, 0.527);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-container > div {
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+  
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+  
+.flex-container2 > div {
+    margin: 10px;
+    padding: 80px;
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+  
+.flex-container3 {
+    display: flex;
+    flex-direction: column;
+}
+  
+.flex-container3 > div {
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
